@@ -82,7 +82,7 @@
 
 /* Simple Hover effect for clock module - BRIGHTER COLOR */
 #clock:hover {
-  background-color: rgba(153, 209, 219, 0.1); /* Brighter highlight */
+  background-color: rgba(153, 209, 219, 0.15); /* Brighter highlight */
 }
 
 #custom-pomodoro {
@@ -176,6 +176,17 @@
 #pulseaudio {
   color: #c6d0f5;
 }
+
+#tray {
+  background-color: #1a1b26;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 5px 0px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  padding: 0.3rem 0.7rem;
+}
+
 #backlight {
   color: #c6d0f5;
 }

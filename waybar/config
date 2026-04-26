@@ -13,6 +13,7 @@
 
   "modules-right": [
     "custom/pomodoro",
+    "tray",
     "network",
     "pulseaudio", 
     "backlight",
@@ -42,6 +43,11 @@
     "tooltip": false,
     "format": "{:%H:%M:%S  -  %A, %d}",
     "interval": 1
+  },
+
+  "tray": {
+	"icon-size": 18,
+	"spacing": 10,
   },
 
   "network": {
@@ -87,7 +93,7 @@
     "format-icons": {
       "default": ["", "", " "]
     },
-    "on-click": "pavucontrol"
+    "on-click": "pavucontrol-qt"
   },
 
   "battery": {
